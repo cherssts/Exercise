@@ -1,0 +1,21 @@
+C:\Users\Eimyf\source\repos\Excercise project 1\Excercise project 1\bin\Debug\net6.0-windows\Excercise project 1.exe
+C:\Users\Eimyf\source\repos\Excercise project 1\Excercise project 1\bin\Debug\net6.0-windows\Excercise project 1.deps.json
+C:\Users\Eimyf\source\repos\Excercise project 1\Excercise project 1\bin\Debug\net6.0-windows\Excercise project 1.runtimeconfig.json
+C:\Users\Eimyf\source\repos\Excercise project 1\Excercise project 1\bin\Debug\net6.0-windows\Excercise project 1.dll
+C:\Users\Eimyf\source\repos\Excercise project 1\Excercise project 1\bin\Debug\net6.0-windows\Excercise project 1.pdb
+C:\Users\Eimyf\source\repos\Excercise project 1\Excercise project 1\obj\Debug\net6.0-windows\Excercise project 1.csproj.AssemblyReference.cache
+C:\Users\Eimyf\source\repos\Excercise project 1\Excercise project 1\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Eimyf\source\repos\Excercise project 1\Excercise project 1\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Eimyf\source\repos\Excercise project 1\Excercise project 1\obj\Debug\net6.0-windows\Excercise project 1_MarkupCompile.cache
+C:\Users\Eimyf\source\repos\Excercise project 1\Excercise project 1\obj\Debug\net6.0-windows\Excercise project 1_MarkupCompile.lref
+C:\Users\Eimyf\source\repos\Excercise project 1\Excercise project 1\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Eimyf\source\repos\Excercise project 1\Excercise project 1\obj\Debug\net6.0-windows\Excercise project 1.g.resources
+C:\Users\Eimyf\source\repos\Excercise project 1\Excercise project 1\obj\Debug\net6.0-windows\Excercise project 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eimyf\source\repos\Excercise project 1\Excercise project 1\obj\Debug\net6.0-windows\Excercise project 1.AssemblyInfoInputs.cache
+C:\Users\Eimyf\source\repos\Excercise project 1\Excercise project 1\obj\Debug\net6.0-windows\Excercise project 1.AssemblyInfo.cs
+C:\Users\Eimyf\source\repos\Excercise project 1\Excercise project 1\obj\Debug\net6.0-windows\Excercise project 1.csproj.CoreCompileInputs.cache
+C:\Users\Eimyf\source\repos\Excercise project 1\Excercise project 1\obj\Debug\net6.0-windows\Excercise project 1.dll
+C:\Users\Eimyf\source\repos\Excercise project 1\Excercise project 1\obj\Debug\net6.0-windows\refint\Excercise project 1.dll
+C:\Users\Eimyf\source\repos\Excercise project 1\Excercise project 1\obj\Debug\net6.0-windows\Excercise project 1.pdb
+C:\Users\Eimyf\source\repos\Excercise project 1\Excercise project 1\obj\Debug\net6.0-windows\Excercise project 1.genruntimeconfig.cache
+C:\Users\Eimyf\source\repos\Excercise project 1\Excercise project 1\obj\Debug\net6.0-windows\ref\Excercise project 1.dll
