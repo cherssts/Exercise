@@ -99,6 +99,10 @@ namespace Excercise_project_1
         private void Textbox2_KeyDown(object sender, KeyEventArgs e)
         
         {
+            if(e.Key == Key.Oem2)
+            {
+                e.Handled = true;
+            }
             if (e.Key == Key.Enter && Textbox2.SelectionStart == 0)
             {
                 MessageBoxResult _msg = MessageBox.Show("Please input something");
@@ -147,7 +151,6 @@ namespace Excercise_project_1
                     SimpleCalc(_data1, _data2, _operator);
                     Textbox3.Text = _mresult.ToString();
                     Textbox3.IsReadOnly = true;
-                    Textbox2.Text = Textbox2.Text.Replace("/", "");
                     break;
 
             }
@@ -193,13 +196,32 @@ namespace Excercise_project_1
         {
 
             bool _ifParseSuc = false;
+            //bool _ifZeroOnDivide = false;
+            if (a == "0" || _operator == "/")
+            {
+                _ifParseSuc = false;
+                //_ifZeroOnDivide = true;
+            }
 
             if (!double.TryParse(a, out b) || _ifParseSuc == false)
             {
                 if (b.GetType() == 1d.GetType())
                 {
-                    _ifParseSuc = true;
+                    //_ifParseSuc = true;
+                    //if (_ifZeroOnDivide == true || _ifParseSuc == true)
+                    //{
+                    //    c.Text = String.Empty;
+                        
+                    //    _ifParseSuc = false;
+                    //    _ifZeroOnDivide = false;
+                    //    c.Focus();
+                    //    _operator = String.Empty;
+                    //    c.Text = String.Empty;
+                    //    textbox2Data = String.Empty;
+                    //    MessageBoxResult _msg = MessageBox.Show("Please don't divide by Zero");
+                    //}
                 }
+
                 else
                 {
                     c.Text = String.Empty;
@@ -236,7 +258,7 @@ namespace Excercise_project_1
                         MessageBoxResult _msg = MessageBox.Show("You Cannot Divide things by 0!");
                         Textbox2.IsEnabled = true;
                         Textbox2.IsReadOnly = false;
-                        Textbox2.Focus();
+                        //Textbox2.Focus();
                         Textbox2.Text = String.Empty;
                         Textbox3.IsEnabled = false;
                         Textbox3.Text = String.Empty;
@@ -245,6 +267,8 @@ namespace Excercise_project_1
                     }
                     else return _mresult = a / b;
 
+                case "":
+                    return a = 0;
 
                 default:
                     throw new InvalidCastException("Nah");
